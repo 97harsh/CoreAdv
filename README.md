@@ -1,3 +1,7 @@
+This repo has been forked from Deepcore: https://github.com/PatrickZH/DeepCore
+
+This repo extends the methods in Deepcore library by adding methods and also adding adversarial attacks
+
 # DeepCore: A Comprehensive Library for Coreset Selection in Deep Learning [PDF](https://arxiv.org/pdf/2204.08499.pdf)
 
 
