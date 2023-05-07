@@ -1,21 +1,34 @@
-This repo has been forked from Deepcore: https://github.com/PatrickZH/DeepCore
+This repo has been adapted from Deepcore: https://github.com/PatrickZH/DeepCore
 
 This repo extends the methods in Deepcore library by adding methods and also adding adversarial attacks
 
-# DeepCore: A Comprehensive Library for Coreset Selection in Deep Learning [PDF](https://arxiv.org/pdf/2204.08499.pdf)
+Coreset selection methods:
+1. geometry based methods Contextual Diversity (CD), Herding  and k-Center Greedy
+2. uncertainty scores
+3. error based methods Forgetting  and GraNd score 
+4. decision boundary based methods Cal  and DeepFool 
+5. gradient matching based methods Craig  and GradMatch 
+6. bilevel optimiza- tion methods Glister
+7. Submodularity based Methods (GC) and Facility Location (FL) functions. 
 
+We aim to introduce a comprehencive library where different adversarial attacks generally done to maching learning models are done:
 
-### Introduction
-To advance the research of coreset selection in deep learning, we contribute a code library named **DeepCore**, an extensive and extendable code library, for coreset selection in deep learning, reproducing dozens of popular and advanced coreset selection methods and enabling a fair comparison of different methods in the same experimental settings. **DeepCore** is highly modular, allowing to add new architectures, datasets, methods and learning scenarios easily. It is built on PyTorch.   
+1. Fast Gradient Sign Attack
+2. Projected Gradient Sign Attack
 
-### Coreset Methods
-We list the methods in DeepCore according to the categories in our original paper, they are 1) geometry based methods Contextual Diversity (CD), Herding  and k-Center Greedy; 2) uncertainty scores; 3) error based methods Forgetting  and GraNd score ; 4) decision boundary based methods Cal  and DeepFool ; 5) gradient matching based methods Craig  and GradMatch ; 6) bilevel optimiza- tion methods Glister ; and 7) Submodularity based Methods (GC) and Facility Location (FL) functions. we also have Random selection as the baseline.
 
 ### Datasets
 It contains a series of other popular computer vision datasets, namely MNIST, QMNIST, FashionMNIST, SVHN, CIFAR10, CIFAR100 and TinyImageNet and ImageNet.
 
 ### Models
-They are two-layer fully connected MLP, LeNet , AlexNet, VGG, Inception-v3, ResNet, WideResNet and MobileNet-v3.
+* They are two-layer fully connected MLP
+* LeNet
+* AlexNet
+* VGG
+* Inception-v3
+* ResNet
+* WideResNet
+* MobileNet-v3.
 
 ### Example
 Selecting with Glister and training on the coreset with fraction 0.1.
