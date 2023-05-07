@@ -1,0 +1,9 @@
+
+================== Exp 0 ==================
+
+dataset: CIFAR10, model: MobileNetV3Small, selection: GraNd, num_ex: 3, epochs: 200, fraction: 0.5, seed: 49930, lr: 0.001, save_path: ./result, resume: , device: cuda, checkpoint_name: CIFAR10_MobileNetV3Small_GraNd_exp0_epoch200_2023-05-03 03:09:09.949558_0.5_
+
+Files already downloaded and verified
+Files already downloaded and verified
+
+=> Training Epoch #0

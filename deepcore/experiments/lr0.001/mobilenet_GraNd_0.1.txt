@@ -1,0 +1,31 @@
+
+================== Exp 0 ==================
+
+dataset: CIFAR10, model: MobileNetV3Small, selection: GraNd, num_ex: 3, epochs: 200, fraction: 0.1, seed: 24815, lr: 0.001, save_path: ./result, resume: , device: cuda, checkpoint_name: CIFAR10_MobileNetV3Small_GraNd_exp0_epoch200_2023-05-03 03:08:44.836536_0.1_
+
+Files already downloaded and verified
+Files already downloaded and verified
+
+=> Training Epoch #0
+| Epoch [  0/ 10] Iter[  1/391]		Loss: 2.3050
+| Epoch [  0/ 10] Iter[ 21/391]		Loss: 1.9997
+| Epoch [  0/ 10] Iter[ 41/391]		Loss: 1.8915
+| Epoch [  0/ 10] Iter[ 61/391]		Loss: 1.8160
+| Epoch [  0/ 10] Iter[ 81/391]		Loss: 1.8183
+| Epoch [  0/ 10] Iter[101/391]		Loss: 1.4816
+| Epoch [  0/ 10] Iter[121/391]		Loss: 1.6047
+| Epoch [  0/ 10] Iter[141/391]		Loss: 1.4015
+| Epoch [  0/ 10] Iter[161/391]		Loss: 1.5153
+| Epoch [  0/ 10] Iter[181/391]		Loss: 1.5954
+| Epoch [  0/ 10] Iter[201/391]		Loss: 1.6345
+| Epoch [  0/ 10] Iter[221/391]		Loss: 1.3959
+| Epoch [  0/ 10] Iter[241/391]		Loss: 1.5174
+| Epoch [  0/ 10] Iter[261/391]		Loss: 1.5722
+| Epoch [  0/ 10] Iter[281/391]		Loss: 1.3729
+| Epoch [  0/ 10] Iter[301/391]		Loss: 1.4588
+| Epoch [  0/ 10] Iter[321/391]		Loss: 1.3361
+| Epoch [  0/ 10] Iter[341/391]		Loss: 1.3493
+| Epoch [  0/ 10] Iter[361/391]		Loss: 1.5169
+| Epoch [  0/ 10] Iter[381/391]		Loss: 1.3632
+
+=> Training Epoch #1
